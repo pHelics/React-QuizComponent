@@ -6,7 +6,7 @@ class QuizQuestion extends React.Component {
       <main>
         <section>
           <p>
-              {this.props.instruction_text}
+              {this.props.quiz_question.instruction_text}
           </p>
         </section>
         <section className="buttons">
